@@ -1,0 +1,21 @@
+{
+  "name": "comp2156",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: No tests created yet.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rachel-code-coder/COMP2156.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rachel-code-coder/COMP2156/issues"
+  },
+  "homepage": "https://github.com/Rachel-code-coder/COMP2156#readme"
+}
