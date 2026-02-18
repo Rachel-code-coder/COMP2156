@@ -2,14 +2,13 @@
   "name": "comp2156",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
+  "homepage": "https://rachel-code-coder.github.io/comp2156-lab06",
   "scripts": {
-<<<<<<< HEAD
-    "test": "react-scripts test",
-=======
->>>>>>> 5bf006cf (fix: update package.json and add gitignore)
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -23,12 +22,7 @@
   "bugs": {
     "url": "https://github.com/Rachel-code-coder/COMP2156/issues"
   },
-  "homepage": "https://rachel-code-coder.github.io/COMP2156",
-<<<<<<< HEAD
   "devDependencies": {
-=======
-  "devDependencies",: {
->>>>>>> 5bf006cf (fix: update package.json and add gitignore)
     "gh-pages": "^6.3.0"
   },
   "dependencies": {
