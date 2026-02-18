@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "react-scripts test",
+=======
+>>>>>>> 5bf006cf (fix: update package.json and add gitignore)
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
@@ -21,7 +24,11 @@
     "url": "https://github.com/Rachel-code-coder/COMP2156/issues"
   },
   "homepage": "https://rachel-code-coder.github.io/COMP2156",
+<<<<<<< HEAD
   "devDependencies": {
+=======
+  "devDependencies",: {
+>>>>>>> 5bf006cf (fix: update package.json and add gitignore)
     "gh-pages": "^6.3.0"
   },
   "dependencies": {
