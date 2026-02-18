@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: No tests created yet.\""
+    "test": "echo \"Warning: No tests created yet.\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Rachel-code-coder/COMP2156/issues"
   },
-  "homepage": "https://github.com/Rachel-code-coder/COMP2156#readme"
+  "homepage": "https://rachel-code-coder.github.io/COMP2156",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
