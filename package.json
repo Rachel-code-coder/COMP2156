@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "main": "index.js",
-  "homepage": "https://rachel-code-coder.github.io/comp2156-lab06",
+  "homepage": "https://rachel-code-coder.github.io/COMP2156",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
