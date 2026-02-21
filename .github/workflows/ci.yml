@@ -1,9 +1,10 @@
-name: Deploy React App COMP2156 DevOps Project CI
-run-name: ${{ github.actor }} is deploying with GitHub Actions
+name: Deploy React App
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - dep-inclusions
+      - main
 
 jobs:
   build:
@@ -15,22 +16,15 @@ jobs:
         with:
           submodules: false
 
-      - name: Set up Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22.x"
-
-      - name: Cache Node.js modules
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: node_modules
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build the app
+      - name: Build
         run: npm run build
 
       - name: Deploy to GitHub Pages
@@ -39,6 +33,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           publish_branch: gh-pages
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
 
